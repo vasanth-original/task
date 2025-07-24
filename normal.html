@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pricing Table</title>
+  <style>
+    .pricing-table {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 40px auto;
+}
+
+.plan {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+.plan h2 {
+  background-color: #ffc107;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+  text-align: center;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+button {
+  background-color: #ffc107;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #ffa07a;
+}
+.circle{
+  height: 120px;
+  width: 120px;
+  background-color: #ccc;
+  border-radius: 50%;
+}
+
+  </style>
+</head>
+<body>
+  <div class="pricing-table">
+    <div class="plan basic">
+      <h2>BASIC</h2>
+        <div class="circle">
+           <p class="price">$10 <sup>.00</sup> per month</p> 
+          </div>
+      <ul>
+        <li>100MB Disk Space</li>
+        <li>500MB Bandwidth</li>
+        <li>1 Subdomain</li>
+        <li>1 Email Account</li>
+        <li>SMTP</li>
+        <li>Webmail Support</li>
+        <li>Mysql Support</li>
+      </ul>
+      <button>Select Plan</button>
+    </div>
+    <div class="plan standard">
+      <h2>STANDARD</h2>
+      <p class="price">$20.00 per month</p>
+      <ul>
+        <li>1GB Disk Space</li>
+        <li>1GB Bandwidth</li>
+        <li>2 Subdomain</li>
+        <li>2 Email Account</li>
+        <li>SMTP</li>
+        <li>Webmail Support</li>
+        <li>Mysql Support</li>
+        <li>PHP Support</li>
+      </ul>
+      <button>Select Plan</button>
+    </div>
+    <div class="plan premium">
+      <h2>PREMIUM</h2>
+      <p class="price">$30.00 per month</p>
+      <ul>
+        <li>2GB Disk Space</li>
+        <li>2GB Bandwidth</li>
+        <li>3 Subdomain</li>
+        <li>3 Email Account</li>
+        <li>SMTP</li>
+        <li>Webmail Support</li>
+        <li>Mysql Support</li>
+        <li>PHP Support</li>
+        <li>Secure SSL</li>
+      </ul>
+      <button>Select Plan</button>
+    </div>
+    <div class="plan pro">
+      <h2>PRO</h2>
+      <p class="price">$40.00 per month</p>
+      <ul>
+        <li>3GB Disk Space</li>
+        <li>3GB Bandwidth</li>
+        <li>4 Subdomain</li>
+        <li>4 Email Account</li>
+        <li>SMTP</li>
+        <li>Webmail Support</li>
+        <li>Mysql Support</li>
+        <li>PHP Support</li>
+        <li>Secure SSL</li>
+        <li>Access Support</li>
+      </ul>
+      <button>Select Plan</button>
+    </div>
+  </div>
+</body>
+</html>
