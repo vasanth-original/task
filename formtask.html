@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+    <style>
+
+        .main{
+          height: max-content;
+          width: max-content;
+          border: 2px solid black;
+          padding: 20px;
+          margin-left: 300px;
+          
+          
+        }
+     
+    input {
+
+          width:100%;
+     }
+     h2{
+          display: flex;
+          justify-content: center;
+     }
+     
+    </style>
+</head>
+<body>
+    <div class="main">
+    <h2>REGISTRATION FORM</h2>
+    <form action="/submit" method="post">
+        <div>
+             <label for="name"><b>Text</b></label><br>
+             <input type="text" id="name" placeholder="Enter your Name">
+        </div><br>
+        <div>
+          
+
+        </div>
+        <div>
+            <label for="password"><b>Password</b></label><br>
+            <input type="password" id="password">
+         </div><br>
+         <div>
+            <label for="telephone"><b>Telephone</b></label><br>
+            <input type="Telephone" id="telephone" placeholder="10-digit number">
+         </div><br>
+         
+         <div>
+             <label for="mail"><b>Text</b></label><br>
+             <input type="email" id="mail" placeholder="xxxxx@gmail.com">
+        </div><br>
+        <div>
+             <label for="website"><b>Website</b></label><br>
+             <input type="url" id="website" placeholder="https.//forms.com">
+        </div><br>
+        <div>
+             <label for="search"><b>Search</b></label><br>
+             <input type="search" id="search" placeholder="Search here....">
+        </div><br>
+        <div>
+             <label for="number"><b>Number(1-100)</b></label><br>
+             <input type="number" id="number">
+        </div><br>
+        <div>
+             <label for="rate"><b>Satisfaction(0-10)</b></label><br>
+             <progress style="width: 100%"; value="5" max="10"></progress>
+        </div><br>
+        <div>
+             <label for="color"><b>Choose color</b></label><br>
+             <input type="color" id="color">
+        </div><br>
+        <div>
+             <label for="date"><b>Date</b></label><br>
+             <input type="date" id="date">
+        </div><br>
+        <div>
+             <label for="Time"><b>Time</b></label><br>
+             <input type="time" id="time">
+        </div><br>
+        <div>
+             <label for="month"><b>Month</b></label><br>
+             <input type="month" id="month">
+        </div><br>
+        <div>
+             <label for="week"><b>Week</b></label><br>
+             <input type="week" id="week">
+        </div><br>
+        <div>
+             <label for="datetime"><b>Date & Time</b></label><br>
+             <input type="datetime-local" id="datetime">
+        </div><br>
+        <div>
+             <label for="upload"><b>Upload</b></label><br>
+             <input type="file" id="upload">
+        </div><br>
+        <div>
+             <input type="checkbox" id="subscribe">
+             <label for="subscribe"><b>Subscribe to Newsletter</b></label><br>
+        </div><br>
+        <div>
+             
+             <label><b>Gender</b></label><br>
+             <input type="radio"  name="gender" id="male">
+             <label for="male">Male</label>
+             <input type="radio" id="female" name="gender">
+             <label for="female">Female</label>
+             <input type="radio" id="other" name="gender">
+             <label for="other">Others</label>
+        </div><br>
+        <div>
+          <label for="select" ><b>Select Country</b></label><br>
+          <select name="Country" id="select">
+               <option value="">select your country</option>
+               <option value="india">INDIA</option>
+               <option value="europe">EUROPE</option>
+               <option value="usa">USA</option>
+               <option value="Australia">AUSTRALIA</option>
+               <option value="germany">GERMANY</option>
+               <option value="irland">IRLAND</option>
+               <option value="china">CHAINA</option>
+               <option value="france">FRANCE</option>
+               <option value="italy">ITALY</option>
+               <option value="thailand">THAILAND</option>
+          </select>
+          </div><br>
+          <div>
+              <label for="choose"><b>Choose a Programming Language</b></label><br>
+              <input type="text" list="Language" placeholder="choose a Language">
+              <datalist id="Language">
+               <option value="html">
+               <option value="css">
+               <option value="python">
+               <option value="js">
+               <option value="react">
+               <option value="java">
+               <option value="c">
+               <option value="c++">
+               <option value="cybersecurity">
+         </datalist>
+          </div><br>
+          <div>
+               <label for="feedback">
+                    <b>Feedback</b>
+                    </label><br>
+                    <textarea name="Feedback" placeholder="write your feedback here...." id="feedback" cols="100" rows="5"></textarea>
+               
+          </div><br>
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+        <button>submit</button>
+        <button>Reset</button>
+        
+    </div>
+
+    </form>
+</body>
+</html>
